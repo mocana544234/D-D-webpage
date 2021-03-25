@@ -1,0 +1,104 @@
+body{
+    background-color: burlywood;
+}
+/*header*/
+h1{
+    height: 120px;
+    width: 1800px;
+    background-color: darkturquoise;
+    font-size: 120px;
+    font-family: fantasy;
+    border-radius: 0;
+}
+div.top{
+    float: center;
+}
+img.logo{
+    width: 300px;
+    float: left;
+    height: 250px;
+    background-color: blueviolet;
+}
+/*navigation bar*/
+li{
+    float: left;
+    background-color: black;
+}
+li:hover{
+    background-color: rgba(138, 123, 123, 0);
+}
+nav{
+    float:left;
+    list-style-type: none;
+    height: 35px;
+    width: 1000px;
+    margin: 0;
+    border: 0;
+    font-size: 46px;
+    position: sticky;
+    top: 10px;
+    background-color: darkslategrey;
+}
+a:link{
+    color: crimson;
+}
+a:visited{
+    color: darkblue;
+}
+a:active{
+    color: darkorchid;
+}
+a:hoover{
+    color: darkslategray;
+}
+/*champions*/
+img.chp{
+    width: 250px;
+    float: left;
+}
+p.chap{
+    height: 60px;
+    background-color: cadetblue;
+    padding: 100px;
+    float: left;
+    width: 1425px;
+}
+/*stories*/
+img.Stories{
+    width: 500px;
+    float: right;
+}
+img.Mountain_top{
+    width: 500px;
+    height: 300px;
+    float: left;
+    clear: left;
+
+}
+p.lgs{
+    height: 230px;
+    background-color: cornsilk;
+}
+p.rlms{
+    height: 253px;
+    background-color: cyan;
+}
+img.weapons{
+    height: 500px;
+    width: 500px;
+    float: right;
+}
+p.wps{
+    height: 300px;
+    background-color: darkkhaki;
+    float: center;
+    width: auto;
+}
+img.weapons2{
+    height: 300px;
+    background-color: darkorchid;
+    float: right;
+}
+h2{
+    font-size: 50px;
+}
