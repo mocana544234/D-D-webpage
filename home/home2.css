@@ -3,12 +3,13 @@ body{
 }
 /*header*/
 h1{
-    height: 120px;
+    height: 191px;
     width: 1800px;
     background-color: darkturquoise;
     font-size: 120px;
     font-family: fantasy;
     border-radius: 0;
+    margin: 0px;
 }
 div.top{
     float: center;
@@ -23,6 +24,9 @@ img.logo{
 li{
     float: left;
     background-color: black;
+    margin: 55px;
+    margin-top: 0px;
+    font-size: 50px;
 }
 li:hover{
     background-color: rgba(138, 123, 123, 0);
@@ -30,9 +34,9 @@ li:hover{
 nav{
     float:left;
     list-style-type: none;
-    height: 35px;
-    width: 1000px;
-    margin: 0;
+    height: 59px;
+    width: 1500px;
+    margin: 8;
     border: 0;
     font-size: 46px;
     position: sticky;
