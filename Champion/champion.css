@@ -76,9 +76,17 @@ img.Rogue{
     height: 600px;
     width: 500px;
 }
+/* Footer */
 footer{
     height: 400px;
     width: 2000px;
     background-color: black;
 }
-/* Footer */
+p.footer{
+    font-size: 20px;
+    color: white;
+    width: 1500px;
+}
+div.logo{
+    float: right;
+}
