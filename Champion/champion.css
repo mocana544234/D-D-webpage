@@ -21,14 +21,16 @@ img.logo{
     background-color: blueviolet;
 }
 /*navigation bar*/
-li{
+button{
     float: left;
     background-color: black;
     margin: 55px;
     margin-top: 0px;
     font-size: 50px;
+    border: 0px;
 }
-li:hover{
+
+button:hover{
     background-color: rgba(138, 123, 123, 0);
 }
 nav{
@@ -79,3 +81,4 @@ footer{
     width: 2000px;
     background-color: black;
 }
+/* Footer */
