@@ -79,14 +79,20 @@ img.Rogue{
 /* Footer */
 footer{
     height: 400px;
-    width: 2000px;
+    width: 1800px;
     background-color: black;
-}
-div.logo{
-    float: right;
 }
 button.footer{
     font-size: 20px;
     color:white;
-    width: 1500px;
+    width: 1300px;
+    float: left;
+}
+div.ft{
+    width: 1300px;
+    float: left;
+}
+img.ft{
+    height: 400px;
+    float: right;
 }

@@ -21,14 +21,16 @@ img.logo{
     background-color: blueviolet;
 }
 /*navigation bar*/
-li{
+button{
     float: left;
     background-color: black;
     margin: 55px;
     margin-top: 0px;
     font-size: 50px;
+    border: 0px;
 }
-li:hover{
+
+button:hover{
     background-color: rgba(138, 123, 123, 0);
 }
 nav{
@@ -72,6 +74,11 @@ img.Stories{
     width: 500px;
     float: right;
 }
+p.lgs{
+    height: 230px;
+    background-color: cornsilk;
+}
+/* Lands/realms */
 img.Mountain_top{
     width: 500px;
     height: 300px;
@@ -79,16 +86,13 @@ img.Mountain_top{
     clear: left;
 
 }
-p.lgs{
-    height: 230px;
-    background-color: cornsilk;
-}
 p.rlms{
-    height: 253px;
+    height: 200px;
     background-color: cyan;
 }
+/* weapons */
 img.weapons{
-    height: 500px;
+    height: 400px;
     width: 500px;
     float: right;
 }
@@ -98,11 +102,27 @@ p.wps{
     float: center;
     width: auto;
 }
-img.weapons2{
-    height: 300px;
-    background-color: darkorchid;
-    float: right;
-}
+/* subtitles */
 h2{
     font-size: 50px;
+}
+/* Footer */
+footer{
+    height: 400px;
+    width: 1800px;
+    background-color: black;
+}
+button.footer{
+    font-size: 20px;
+    color:white;
+    width: 1300px;
+    float: left;
+}
+div.ft{
+    width: 1300px;
+    float: left;
+}
+img.ft{
+    height: 400px;
+    float: right;
 }

@@ -21,14 +21,16 @@ img.logo{
     background-color: blueviolet;
 }
 /*navigation bar*/
-li{
+button{
     float: left;
     background-color: black;
     margin: 55px;
     margin-top: 0px;
     font-size: 50px;
+    border: 0px;
 }
-li:hover{
+
+button:hover{
     background-color: rgba(138, 123, 123, 0);
 }
 nav{
@@ -54,4 +56,51 @@ a:active{
 }
 a:hoover{
     color: darkslategray;
+}
+/* subtitles */
+div#Title{
+    float: left;
+    width: 1800px;
+    background-color: lightsalmon;
+}
+h3{
+    background-color: rgb(216, 101, 56);
+}
+/* Grimlock */
+p.Grimlock{
+    width: 500px;
+    font-size: 25px;
+}
+img.Grimlock{
+    height: 600px;
+    width: 500px;
+}
+/* Earl */
+p.Earl{
+    font-size: 25px;
+    width: 500px;
+}
+img.Earl{
+    height: 600px;
+    width: 500px;
+}
+/* Footer */
+footer{
+    height: 400px;
+    width: 1800px;
+    background-color: black;
+}
+button.footer{
+    font-size: 20px;
+    color:white;
+    width: 1300px;
+    float: left;
+}
+div.ft{
+    width: 1300px;
+    float: left;
+}
+img.ft{
+    height: 400px;
+    float: right;
 }
