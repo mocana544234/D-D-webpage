@@ -82,11 +82,11 @@ footer{
     width: 2000px;
     background-color: black;
 }
-p.footer{
-    font-size: 20px;
-    color: white;
-    width: 1500px;
-}
 div.logo{
     float: right;
+}
+button.footer{
+    font-size: 20px;
+    color:white;
+    width: 1500px;
 }
