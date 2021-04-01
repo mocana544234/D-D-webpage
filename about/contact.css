@@ -64,7 +64,9 @@ div#Title{
     background-color: lightsalmon;
 }
 /* contact form */
-
+div.container{
+    height: 500px;
+}
 /* Footer */
 footer{
     height: 400px;
@@ -84,4 +86,28 @@ div.ft{
 img.ft{
     height: 400px;
     float: right;
+}
+/* social media */
+.fa{
+    padding: 20px;
+    font-size: 20px;
+    width: 40px;
+    text-align: left;
+    text-decoration: none;
+    margin: 5px 2px;
+}
+.fa:hover{
+    opacity: 0.7;
+}
+.fa-facebook{
+    background-color: black;
+    color: white;
+}
+.fa-twitter{
+    background-color: black;
+    color:white;
+}
+.f-google{
+    background-color: black;
+    color: white;
 }
