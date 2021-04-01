@@ -31,6 +31,22 @@
         <div id="Title">
           <H2>Contact</H2>
         </div>
+        <div class="container">
+          <form action="contact_form.php">
+            <label for="flname">First and last name</label>
+            <input type="text" id="flname" id="firstandlastname" placeholder="First and Last name">
+            <label for="email">Email Address</label>
+            <input type="text" id="email" name="email_address" placeholder="example@gmail.com">
+            <label for="Character Class">Character Class</label>
+            <select name="Character Class" id="character class">
+              <option value="fighter">Fighter</option>
+              <option value="rogue">Rogue</option>
+            </select>
+            <label for="character info.">Character Information</label>
+            <textarea name="character info." id="character info." placeholder="Character name, level, feats, background, and character sheet.."></textarea>
+            <input type="submit" value="submit">
+          </form>
+        </div>
     </body>
     <footer>
         <div class="ft">
